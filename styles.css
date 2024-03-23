@@ -98,3 +98,32 @@ img {
 
     
 }
+
+@media screen and (max-width: 600px) {
+  .left-con, .right-con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  input {
+    width: 200px;
+  }
+  .btn {
+    width: 150px;
+  }
+
+    
+}
+@media screen and (max-width: 768px) {
+  .left-con, .right-con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  input {
+    width: 200px;
+  }
+  .btn {
+    width: 150px;
+  }  
+}

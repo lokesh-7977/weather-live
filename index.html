@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Weather Live</h1>
+    <div class="form-container">
+      <form onsubmit="getData(event)" class="searchData" id="searchData">
+        <input
+          type="text"
+          placeholder="Enter Your City Name"
+          id="inputBox"
+        /><br />
+        <input type="button" value="Submit" class="btn" id="btn" />
+      </form>
+    </div>
+    <div class="main-class">
+      <div class="left-con">
+        <div>
+          <h2>Country Name</h2>
+          <p class="countryName" id="countryName">__</p>
+        </div>
+        <div>
+          <h2>State Name</h2>
+          <p class="stateName" id="stateName">__</p>
+        </div>
+        <div>
+          <h2>City Name</h2>
+          <p class="cityName" id="cityName">__</p>
+        </div>
+      </div>
+      <div class="right-con">
+        <div>
+          <h2>Temperature in C</h2>
+          <p class="temperature" id="temperature">__</p>
+        </div>
+        <div>
+          <h2>Humidity</h2>
+          <p class="humidity" id="humidity">__</p>
+        </div>
+        <div>
+          <h2>Wind Speed</h2>
+          <p class="wind" id="wind">__km/h</p>
+        </div>
+        <div>
+          <h2>Pressure</h2>
+          <p class="pressure" id="pressure">__</p>
+        </div>
+      </div>
+      <div>
+        <h2>Time</h2>
+        <p class="time" id="time">__</p>
+      </div>
+      <div>
+        <img src="" alt="" class="icon" id="icon" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

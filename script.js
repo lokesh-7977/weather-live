@@ -77,3 +77,5 @@ if (data.current.temp_c < 20) {
 }
   
 };
+
+btn.addEventListener("click", getData);

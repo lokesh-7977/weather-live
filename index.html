@@ -9,13 +9,13 @@
   <body>
     <h1>Weather Live</h1>
     <div class="form-container">
-      <form onsubmit="getData(event)" class="searchData" id="searchData">
+      <form class="searchData" id="searchData">
         <input
           type="text"
           placeholder="Enter Your City Name"
           id="inputBox"
         /><br />
-        <input type="button" value="Submit" onSubmit= "getData(event)" class="btn" id="btn" />
+        <button type="button" class="btn" id="btn" onclick="getData(event)">Submit</button>
       </form>
     </div>
     <div class="main-class">

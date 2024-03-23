@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-container {
+  padding-top: 20px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-class {
+  text-align: center;
+}
+.left-con {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  gap: 70px;
+}
+.right-con {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  gap: 70px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  outline: none;
+  text-align: center;
+  font-size: large;
+  
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.wind , .humidity, .pressure, .visibility, .temperature,.humidity,.pressure,.cityName , .countryName, .stateName {
+    color: rgb(0, 255, 251);
+}
+
+input::placeholder {
+  color: black;
+  text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+@media screen and (max-width: 600px) {
+  .left-con, .right-con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  input {
+    width: 200px;
+  }
+  .btn {
+    width: 150px;
+  }
+
+    
+}
